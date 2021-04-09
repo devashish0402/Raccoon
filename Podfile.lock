@@ -6,44 +6,26 @@ PODS:
   - Groot (3.0.1):
     - Groot/Swift (= 3.0.1)
   - Groot/Swift (3.0.1)
-  - OHHTTPStubs (5.2.1):
-    - OHHTTPStubs/Default (= 5.2.1)
-  - OHHTTPStubs/Core (5.2.1)
-  - OHHTTPStubs/Default (5.2.1):
-    - OHHTTPStubs/Core
-    - OHHTTPStubs/JSON
-    - OHHTTPStubs/NSURLSession
-    - OHHTTPStubs/OHPathHelpers
-  - OHHTTPStubs/JSON (5.2.1):
-    - OHHTTPStubs/Core
-  - OHHTTPStubs/NSURLSession (5.2.1):
-    - OHHTTPStubs/Core
-  - OHHTTPStubs/OHPathHelpers (5.2.1)
-  - OHHTTPStubs/Swift (5.2.1):
-    - OHHTTPStubs/Core
-  - PromiseKit/CorePromise (4.4.0)
+  - PromiseKit/CorePromise (6.13.1)
 
 DEPENDENCIES:
   - AlamofireCoreData (~> 2.0)
-  - OHHTTPStubs (~> 5.2)
-  - OHHTTPStubs/Swift (~> 5.2)
-  - PromiseKit/CorePromise (~> 4.4)
+  - PromiseKit/CorePromise (~> 6.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs:
     - Alamofire
     - AlamofireCoreData
     - Groot
-    - OHHTTPStubs
+  trunk:
     - PromiseKit
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AlamofireCoreData: 3205949bd789c2aa5e1cd8f4d703631c9d7ba09c
   Groot: a668afbcf0be88d76c0a26c714cfa4638ceaca66
-  OHHTTPStubs: 3a42f25c00563b71355ac73112ba2324e9e6cef4
-  PromiseKit: ecf5fe92275d57ee77c9ede858af47a162e9b97e
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
 
-PODFILE CHECKSUM: 5b5606354902ff60b7df1b19866ff037d347e788
+PODFILE CHECKSUM: b912b9bf81e1302acde5637e09defa21ed0d0090
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0

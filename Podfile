@@ -4,12 +4,8 @@ use_frameworks!
 abstract_target 'abstract_target' do
     
     pod 'AlamofireCoreData', '~> 2.0'
-    pod 'PromiseKit/CorePromise', '~> 4.4'
+    pod 'PromiseKit/CorePromise', '~> 6.0'
     
     target 'Raccoon'
     
-    target 'RaccoonTests' do
-        pod 'OHHTTPStubs', '~> 5.2'
-        pod 'OHHTTPStubs/Swift', '~> 5.2'
-    end
 end

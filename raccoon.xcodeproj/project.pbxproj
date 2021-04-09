@@ -12,7 +12,6 @@
 		3285AB891CD019FE00350513 /* Raccoon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3285AB881CD019FE00350513 /* Raccoon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3285AB901CD019FE00350513 /* Raccoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3285AB861CD019FE00350513 /* Raccoon.framework */; };
 		78B30346D0D4AD1764E3D12B /* Pods_abstract_target_Raccoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C46CCED049B6F1029FB6131 /* Pods_abstract_target_Raccoon.framework */; };
-		E1E8473EF5F1DC4C4E3C1D23 /* Pods_abstract_target_RaccoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711C0ADF627C4B11CBD0EDE4 /* Pods_abstract_target_RaccoonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +33,7 @@
 		3285AB8A1CD019FE00350513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3285AB8F1CD019FE00350513 /* RaccoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaccoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3285AB961CD019FE00350513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DEA79D492FB382729AC1680 /* Pods-abstract_target-RaccoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_target-RaccoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-abstract_target-RaccoonTests/Pods-abstract_target-RaccoonTests.debug.xcconfig"; sourceTree = "<group>"; };
-		711C0ADF627C4B11CBD0EDE4 /* Pods_abstract_target_RaccoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_abstract_target_RaccoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1EB9E06C42FB77CF4402CA /* Pods-abstract_target-Raccoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_target-Raccoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-abstract_target-Raccoon/Pods-abstract_target-Raccoon.debug.xcconfig"; sourceTree = "<group>"; };
-		91B7B199F6351D14F5DBF877 /* Pods-abstract_target-RaccoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_target-RaccoonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-abstract_target-RaccoonTests/Pods-abstract_target-RaccoonTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6EECBC99055AAC5595AD492 /* Pods-abstract_target-Raccoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-abstract_target-Raccoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-abstract_target-Raccoon/Pods-abstract_target-Raccoon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +51,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3285AB901CD019FE00350513 /* Raccoon.framework in Frameworks */,
-				E1E8473EF5F1DC4C4E3C1D23 /* Pods_abstract_target_RaccoonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +109,6 @@
 			children = (
 				7F1EB9E06C42FB77CF4402CA /* Pods-abstract_target-Raccoon.debug.xcconfig */,
 				B6EECBC99055AAC5595AD492 /* Pods-abstract_target-Raccoon.release.xcconfig */,
-				6DEA79D492FB382729AC1680 /* Pods-abstract_target-RaccoonTests.debug.xcconfig */,
-				91B7B199F6351D14F5DBF877 /* Pods-abstract_target-RaccoonTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -124,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				2C46CCED049B6F1029FB6131 /* Pods_abstract_target_Raccoon.framework */,
-				711C0ADF627C4B11CBD0EDE4 /* Pods_abstract_target_RaccoonTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,11 +158,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3285AB9A1CD019FE00350513 /* Build configuration list for PBXNativeTarget "RaccoonTests" */;
 			buildPhases = (
-				7D7CDA0AF0199FA86C8CF6A2 /* [CP] Check Pods Manifest.lock */,
 				3285AB8B1CD019FE00350513 /* Sources */,
 				3285AB8C1CD019FE00350513 /* Frameworks */,
 				3285AB8D1CD019FE00350513 /* Resources */,
-				2FECD4CAB4CA3B34F3F5375C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,32 +230,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FECD4CAB4CA3B34F3F5375C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-abstract_target-RaccoonTests/Pods-abstract_target-RaccoonTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireCoreData/AlamofireCoreData.framework",
-				"${BUILT_PRODUCTS_DIR}/Groot/Groot.framework",
-				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
-				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireCoreData.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Groot.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-abstract_target-RaccoonTests/Pods-abstract_target-RaccoonTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		594AFE7DC578B0F927399F1F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,24 +242,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-abstract_target-Raccoon-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D7CDA0AF0199FA86C8CF6A2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-abstract_target-RaccoonTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,7 +331,6 @@
 		};
 		3285AB9B1CD019FE00350513 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DEA79D492FB382729AC1680 /* Pods-abstract_target-RaccoonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
@@ -401,7 +346,6 @@
 		};
 		3285AB9C1CD019FE00350513 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91B7B199F6351D14F5DBF877 /* Pods-abstract_target-RaccoonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
